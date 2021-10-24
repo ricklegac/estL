@@ -1,0 +1,39 @@
+python con librerias:
+* leemos los datos y eliminamos las columnas a no ser utilizadas para comparar
+* creamos nuevo dataframe donde haremos un sort de los valores, tambien cambiamos los valores NaN por cero
+* imprimimos el item a y b utilizando head y ordenando ascendente o descendentemente segun convenencias
+* primero juntamos datos de locations y total_cases para poder luego imprimir de manera ordenada los datos por millon 
+* para los ultimos 10 dias utilizamos iloc y ordenamos
+* para la correlacion utilizamos corr
+* para la grafica hicimos los diff segun fecha anterior, luego plot()
+
+python con librerias: 
+* los primeros pasos son iguales al codigo con libreria
+* utilizamos datoscovid donde tenemos el dataframe transpuesto
+* funcion mini para recorrer el dataframe que lo pasamos a lista y luego ordenar por index
+* lo mismo para max
+* obtenemos item a y b
+* para los casos por millon creamos una lista 
+* obtenemos los datos de minmillon y maxmillon 
+* funcion prom para el promedio en los diez dias 
+
+R con librerias: 
+* leemos el dataset
+* eliminamos lo que no usaremos
+* obtenemos los minimos y maximos segun la ultima fecha y el pais paraguay
+* para los casos por millon elegimos la ultima fila, 
+* para los ultimos 10 dias volvimos a leer el dataset limpio para manipularlo 
+* para el grafico usamos la libreria 
+
+Ruby con libreria: 
+* utilizamos daru que es similar a pandas de python
+* leemos el dataset
+* trabajamos en la ultima fila para el itema a y b
+* el ejercicio c traemos al dataframe de locations y trabajamos sobre la ultima fila del mismo
+* para el ejercicio e se uso mean
+
+lisp con funciones propias:
+* ya viene precargada, se uso funciones propias del lenguaje
+
+lisp sin funciones propias:
+* ya viene precargada la lista, se uso recursividad para poder recorrer
